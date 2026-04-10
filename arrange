@@ -8,6 +8,6 @@ for file in files/*; do
 
     target_folder=$(echo "$first_letter" | tr '[:upper:]' '[:lower:]')
         
-    mv "$file" "$first_letter/"
+    mv "$file" "$target_folder/"
     
 done
